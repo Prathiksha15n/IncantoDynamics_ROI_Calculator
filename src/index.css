@@ -10,6 +10,11 @@
   body {
     @apply text-gray-900;
     background-color: #F5F5F0;
+    overflow-x: hidden;
+  }
+  
+  html {
+    overflow-x: hidden;
   }
 }
 
@@ -23,11 +28,11 @@
   }
   
   .golden-button {
-    @apply bg-golden-orange-500 text-white font-semibold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105;
+    @apply bg-golden-orange-500 text-white font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-sm sm:text-base w-full sm:w-auto;
   }
   
   .golden-button-outline {
-    @apply border-2 border-golden-orange-500 text-golden-orange-600 font-semibold px-8 py-4 rounded-lg hover:bg-golden-orange-50 transition-all duration-300;
+    @apply border-2 border-golden-orange-500 text-golden-orange-600 font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-lg hover:bg-golden-orange-50 transition-all duration-300 text-sm sm:text-base w-full sm:w-auto;
   }
 }
 
