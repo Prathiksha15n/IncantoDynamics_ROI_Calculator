@@ -9,17 +9,20 @@ function SkillsSelection() {
   
   const [selectedSkills, setSelectedSkills] = useState([])
 
-  // New skills list as provided
+  // Skills list
   const skills = [
-    { id: 'systems-problem-solving', name: 'Systems-Oriented Problem Solving' },
-    { id: 'blueprint-interpretation', name: 'Technical Blueprint Interpretation' },
-    { id: 'electrical-comprehension', name: 'Electrical System Comprehension' },
-    { id: 'engineering-software', name: 'Engineering Software Proficiency' },
-    { id: 'digital-design', name: 'Digital Design Tool Familiarity' },
-    { id: 'cad-exposure', name: 'Computer-Aided Drafting (CAD) Exposure' },
-    { id: 'technical-documentation', name: 'Technical Documentation Handling' },
-    { id: 'automation-workflow', name: 'Automation Workflow Understanding' },
-    { id: 'sensor-systems', name: 'Sensor-Based System Familiarity' },
+    { id: 'plc-programming', name: 'PLC Programming' },
+    { id: 'logic-architecture', name: 'Logic Architecture' },
+    { id: 'scada-configuration', name: 'SCADA System Configuration' },
+    { id: 'hmi-design', name: 'HMI Design' },
+    { id: 'automation-integration', name: 'Automation System Integration' },
+    { id: 'robotics-vision', name: 'Robotics Vision' },
+    { id: 'robot-motion-kinematics', name: 'Robot Motion Planning & Kinematics' },
+    { id: 'electrical-systems', name: 'Electrical Systems Engineering' },
+    { id: 'control-panel-design', name: 'Control Panel Designing' },
+    { id: 'field-device-interfacing', name: 'Field Device Interfacing' },
+    { id: 'hydraulics-pneumatics', name: 'Hydraulics & Pneumatics Systems' },
+    { id: 'sensor-instrumentation', name: 'Sensor Integration & Instrumentation' },
   ]
 
   const toggleSkill = (skillId) => {
@@ -72,7 +75,7 @@ function SkillsSelection() {
             Select the skills you currently have. This helps us understand your starting point.
           </p>
           <p className="text-sm text-gray-500 max-w-2xl mx-auto mt-2">
-            Note: Completing the Incanto Dynamics program will add all 5 core skill categories to your profile.
+            {/* Note: Completing the Incanto Dynamics program will add all 5 core skill categories to your profile. */}
           </p>
         </div>
 

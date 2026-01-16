@@ -11,6 +11,28 @@ const INCANTO_CATEGORIES = {
   'IoT & NFC for Control Systems': 1.1,
 }
 
+// Skill to Category Mapping (for reference)
+// Skills are mapped to the 5 core categories
+const SKILL_TO_CATEGORY = {
+  // Industrial Automation & Control Systems
+  'plc-programming': 'Industrial Automation & Control Systems',
+  'logic-architecture': 'Industrial Automation & Control Systems',
+  'scada-configuration': 'Industrial Automation & Control Systems',
+  'hmi-design': 'Industrial Automation & Control Systems',
+  'automation-integration': 'Industrial Automation & Control Systems',
+  'control-panel-design': 'Industrial Automation & Control Systems',
+  'electrical-systems': 'Industrial Automation & Control Systems',
+  'hydraulics-pneumatics': 'Industrial Automation & Control Systems',
+  
+  // Robotics & Motion Engineering
+  'robotics-vision': 'Robotics & Motion Engineering',
+  'robot-motion-kinematics': 'Robotics & Motion Engineering',
+  
+  // Sensors, Instrumentation & Field Integration
+  'sensor-instrumentation': 'Sensors, Instrumentation & Field Integration',
+  'field-device-interfacing': 'Sensors, Instrumentation & Field Integration',
+}
+
 // Base salary for freshers
 const FRESHER_BASE_SALARY = 3.5
 
