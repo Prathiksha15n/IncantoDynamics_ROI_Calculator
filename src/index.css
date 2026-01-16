@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply antialiased;
+  }
+  
+  body {
+    @apply text-gray-900;
+    background-color: #F5F5F0;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-lg;
+  }
+  
+  .glass-panel-dark {
+    @apply bg-gray-900/80 backdrop-blur-md border border-white/10 shadow-xl;
+  }
+  
+  .golden-button {
+    @apply bg-golden-orange-500 text-white font-semibold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105;
+  }
+  
+  .golden-button-outline {
+    @apply border-2 border-golden-orange-500 text-golden-orange-600 font-semibold px-8 py-4 rounded-lg hover:bg-golden-orange-50 transition-all duration-300;
+  }
+}
+
